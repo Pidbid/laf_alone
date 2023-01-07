@@ -1,0 +1,17 @@
+node_modules
+dist
+
+upload
+data/*
+tmp
+
+ecosystem.config.js
+.DS_Store
+.idea
+
+coverage
+.nyc_output
+
+kubernetes-dev/mongo-data
+
+kubernetes-local/

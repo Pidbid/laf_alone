@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "packages/*",
+    "docs"
+  ],
+  "version": "0.8.13",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "package-lock.json",
+        "*.md",
+        "tests",
+        "http",
+        "ecosystem.config*"
+      ]
+    }
+  }
+}
